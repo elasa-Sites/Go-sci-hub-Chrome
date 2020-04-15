@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+
 <html>
   <head>
     <meta charset="UTF-8">
@@ -12,9 +14,31 @@
       <input placeholder="Domain (e.g. sci-hub.tw)" type="text" required="" id="domain">
       <p class="label">Domain (e.g. sci-hub.tw)</p>
       <button class="ripple" id="save">Save</button>
+      
+       <label for="defaultUrl" style="color: red;">Invalid hostname.</label>
+      <p>
+        The value is not a valid url. Maybe try one of these scihub mirror:
+        <ul>
+          <li>https://sci-hub.se</li>
+          <li>http://sci-hub.tw</li>
+        </ul>
+        You can also get the other scihub url on:
+        <a href="https://sci-hub.se">https://sci-hub.se</a>
+      or
+        <a href=" https://sci-hub.now.sh/"> https://sci-hub.now.sh/</a>
+     
+      
+      </p>
+      <p>
+      If you think this is a valid url, please open an issue/bug report at:<br />
+        <a href="https://github.com/elasa-Sites/Go-sci-hub-Chrome/issues">https://github.com/elasa-Sites/scihub-firefox/issues</a>
+      </p>
+    </div>
+    <label for="defaultUrl" id="defaultUrlSaved" style="color: green; display: none;">Default URL Saved</label>
+  
     </form>
 
-    <a class="follow" href="https://github.com/elasa-Sites/sci-hub-fy" target="_blank"><i class="fa fa-github"></i>Fork me on GitHub</a>
+    <a class="follow" href="https://github.com/elasa-Sites/Go-sci-hub-Chrome" target="_blank"><i class="fa fa-github"></i>Fork me on GitHub</a>
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
