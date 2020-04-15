@@ -9,7 +9,7 @@ The hard work is done by [Sci-Hub].
 
 ## Installation
 
-You can install it frome [here]() or load it as an unpacked extension in developer mode on Chrome. Follow this instructions:
+You can load it as an unpacked extension in developer mode on Chrome. Follow this instructions:
 
 1. Clone this repo: `git clone https://github.com/elasa-Sites/Go-sci-hub-Chrome.git`. Take note where you cloned it.
 2. Open Chrome and access `chrome://extensions`, or just open the menu -> settings -> extensions.
