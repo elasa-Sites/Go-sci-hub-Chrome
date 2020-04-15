@@ -1,4 +1,4 @@
-Sci-Hub-Fy
+Go to Sci-hub 
 ==========
 
 Chrome extension that passes URLs to Sci-Hub, allowing free access to scientific articles.
@@ -9,13 +9,13 @@ The hard work is done by [Sci-Hub].
 
 ## Installation
 
-You can load it as an unpacked extension in developer mode on Chrome. Follow this instructions:
+You can install it frome [here]() or load it as an unpacked extension in developer mode on Chrome. Follow this instructions:
 
-1. Clone this repo: `git clone https://github.com/allanino/sci-hub-fy.git`. Take note where you cloned it.
+1. Clone this repo: `git clone https://github.com/elasa-Sites/Go-sci-hub-Chrome.git`. Take note where you cloned it.
 2. Open Chrome and access `chrome://extensions`, or just open the menu -> settings -> extensions.
 3. Check the developer mode in upper right.
 4. Click "Load unpacked extension" button
-5. Select the folder into which you cloned **Sci-Hub-Fy** and click "Open".
+5. Select the folder into which you cloned **Go to Sci-hub** and click "Open".
 6. We're done. The extension should be available as if installed from Chrome store.
 
 ## Context menu
@@ -26,3 +26,7 @@ Another way of using this extension is through the context menu (right-click):
 - Page context: if you right-click anywhere but a link in a page, we prepend "http://sci-hub.tw/" to the page's URL and redirect you to it (the same as clicking in the extension icon).
 
 [Sci-Hub]:http://sci-hub.tw
+
+### Thabks form (forked form there) :
+[allanino](https://github.com/allanino)
+
